@@ -1,0 +1,181 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    background:#0f0f1a;
+    color:white;
+}
+
+/* NAVBAR */
+header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 8%;
+    background:#121225;
+    position:sticky;
+    top:0;
+}
+
+nav a{
+    margin:0 15px;
+    text-decoration:none;
+    color:#ccc;
+}
+
+nav a:hover{
+    color:#00f7ff;
+}
+
+.logo{
+    font-weight:800;
+    font-size:22px;
+}
+
+.nav-buttons a{
+    margin-left:10px;
+}
+
+/* HERO */
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 8%;
+    background: linear-gradient(135deg,#141433,#1f1f4d);
+    gap: 50px;
+}
+
+/* LEFT SIDE */
+.hero-content {
+    flex: 1;
+}
+
+.hero-content h1 {
+    font-size: 42px;
+    margin-bottom: 15px;
+}
+
+.hero-content span {
+    color: #00f7ff;
+}
+
+.hero-content h2 {
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.hero-content p {
+    margin-bottom: 30px;
+    color: #ccc;
+    line-height: 1.6;
+}
+
+.hero-buttons {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+/* RIGHT SIDE IMAGE */
+.hero-image {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.hero-image img {
+    width: 350px;
+    border-radius: 20px;
+}
+
+
+/* BUTTONS */
+.btn-primary{
+    background:#00f7ff;
+    color:black;
+    padding:10px 20px;
+    border-radius:8px;
+    text-decoration:none;
+    font-weight:600;
+    display:inline-block;
+}
+
+.btn-outline{
+    border:2px solid #00f7ff;
+    color:#00f7ff;
+    padding:10px 20px;
+    border-radius:8px;
+    text-decoration:none;
+    font-weight:600;
+    display:inline-block;
+}
+
+.btn-primary:hover,
+.btn-outline:hover{
+    opacity:0.8;
+}
+
+/* SECTIONS */
+.section{
+    padding:80px 8%;
+    text-align:center;
+}
+
+.dark-section{
+    background:#121225;
+}
+
+/* CARDS */
+.cards{
+    display:flex;
+    justify-content:center;
+    gap:30px;
+    margin-top:40px;
+    flex-wrap:wrap;
+}
+
+.card{
+    background:#1a1a2e;
+    padding:30px;
+    border-radius:15px;
+    width:280px;
+    transition:0.3s;
+}
+
+.card:hover{
+    transform:translateY(-10px);
+    background:#00f7ff;
+    color:black;
+}
+
+.highlight{
+    border:2px solid #00f7ff;
+}
+
+/* CTA SECTION */
+.cta{
+    padding:80px 8%;
+    text-align:center;
+    background:linear-gradient(135deg,#1f1f4d,#141433);
+}
+
+/* CONTACT BUTTONS (NEW ADDED) */
+.contact-buttons{
+    margin-top:25px;
+    display:flex;
+    justify-content:center;
+    gap:15px;
+    flex-wrap:wrap;
+}
+
+footer{
+    text-align:center;
+    padding:20px;
+    background:#0d0d17;
+}
